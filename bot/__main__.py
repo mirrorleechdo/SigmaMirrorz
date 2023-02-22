@@ -57,9 +57,9 @@ def start(update, context):
         start_string = 'Bot Started.\n' \
                     'Now I will send your files or links here.\n'
     else:
-        start_string = '🌹 Welcome To One Of A Modified Anasty Mirror Bot\n' \
+        start_string = '🌹 Welcome To One Of A Modified Hamza Mirrorz Thomas Shelby Bot\n' \
                     'This bot can Mirror all your links To Google Drive!\n' \
-                    '👨🏽‍💻 Powered By: @JMDKH_Team'
+                    '👨🏽‍💻 Powered By: @SmxUpdates'
     sendMessage(start_string, context.bot, update.message)
 
 def restart(update, context):
@@ -81,7 +81,7 @@ def restart(update, context):
 
 def ping(update, context):
     start_time = int(round(time() * 1000))
-    reply = sendMessage("Starting Ping", context.bot, update.message)
+    reply = sendMessage("Starting Ping⛔", context.bot, update.message)
     end_time = int(round(time() * 1000))
     editMessage(f'{end_time - start_time} ms', reply)
 
